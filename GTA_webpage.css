@@ -1,0 +1,78 @@
+h1{
+  text-align: center;
+  color: #ffffff;
+  background: #bd4fa9;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+  margin: 20px;
+  border: 2px solid #000000;
+  transition: transform 0.3s ease, box-shadow o.3s ease; 
+}
+::backdrop {
+    background-color: black;
+}
+.list-i {
+  background: rgb(123, 237, 159)(9, 199, 56, 0.795);
+  color: #ecf0f1;
+  backdrop-filter: blur(5px);
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+.list-i:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow:0 0 10px #fff3 inset
+}
+ul {
+  list-style-type: square;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  background: rgb(190, 62, 207);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+  border: 2px solid #c90086;
+}
+.main li {
+  margin: 10px ;
+  color: aqua;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.3s ease;
+  text-align: center;
+}
+li:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow:0 0 10px #fff3 inset
+}
+h2 {
+  text-align: center;
+  color: #ffffff;
+  background: #ff6b81;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+  margin: 20px;
+  border: 2px solid #ff4757;
+  transition: transform 0.3s ease, box-shadow o.3s ease; 
+}
+body {
+  background-image: url(gta-6-2025-6g-2160x3840.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #c90086;
+}
+.main a {
+  text-decoration: none;
+}
